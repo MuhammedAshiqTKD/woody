@@ -1,0 +1,116 @@
+/* main first section   */
+.main {
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main section right */
+.sub-right {
+    margin-right: 60px;
+    margin-top: 13px;
+
+}
+
+.sub-right i {
+    color: #AB7442;
+    border: 4px solid white;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+/* phone icon */
+.sub-right span i {
+    color: #AB7442;
+    border: 4px solid rgb(243, 243, 243);
+    font-size: 18px;
+    background-color: rgb(243, 243, 243);
+}
+
+.sub-right span {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+/* main section left */
+.sub-left {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.sub-left i {
+    color: #AB7442;
+    margin-left: 10px;
+}
+
+.sub-left span {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+/* nav-bar-sections */
+.main-1st-section {
+    width: 50%;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 40px;
+    color: #AB7442;
+}
+
+/* links whole section nav  */
+
+#home-in-nav {
+    color: #AB7442;
+}
+
+.main-2nd-section {
+    width: 35%;
+    font-size: 17px;
+    margin-left: 30px;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.main-2nd-section a:hover {
+    color: #AB7442 !important;
+}
+
+/* get quote sectiom */
+.main-3rd-section {
+    width: 15%;
+    background-color: #AB7442;
+    padding: 32px;
+}
+
+.main-3rd-section a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    margin-left: 22px;
+}
+
+.main-3rd-section i {
+    margin-left: 9px;
+}
+
+
+
+
+/* /////////////////about image///////////////// */
+.aboutimage{
+    position: relative;
+}
+.aboutimage img{
+    height: 300px;
+    width: 100%;
+    
+
+}
+.abouttextinside{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 39%;
+    left: 10%;
+}

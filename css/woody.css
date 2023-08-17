@@ -1,0 +1,1061 @@
+/* main first section   */
+.main {
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main section right */
+.sub-right {
+    margin-right: 60px;
+    margin-top: 13px;
+
+}
+
+.sub-right i {
+    color: #AB7442;
+    border: 4px solid white;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+/* phone icon */
+.sub-right span i {
+    color: #AB7442;
+    border: 4px solid rgb(243, 243, 243);
+    font-size: 18px;
+    background-color: rgb(243, 243, 243);
+}
+
+.sub-right span {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+/* main section left */
+.sub-left {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.sub-left i {
+    color: #AB7442;
+    margin-left: 10px;
+}
+
+.sub-left span {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+/* nav-bar-sections */
+.main-1st-section {
+    width: 50%;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 40px;
+    color: #AB7442;
+}
+
+/* links whole section nav  */
+
+#home-in-nav {
+    color: #AB7442;
+}
+
+.main-2nd-section {
+    width: 35%;
+    font-size: 17px;
+    margin-left: 30px;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.main-2nd-section a:hover {
+    color: #AB7442 !important;
+}
+
+/* get quote sectiom */
+.main-3rd-section {
+    width: 15%;
+    background-color: #AB7442;
+    padding: 32px;
+}
+
+.main-3rd-section a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    margin-left: 22px;
+}
+
+.main-3rd-section i {
+    margin-left: 9px;
+}
+
+/* carsoel-section */
+#icons-caro {
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.carosec1main {
+    position: relative;
+}
+
+.carosec1main img {
+    filter: brightness(50%);
+}
+
+.carotext {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+}
+
+.carotext h2 {
+    font-size: 25px !important;
+    font-weight: 660 !important;
+    color: #fff !important;
+    text-align: center;
+}
+
+.carotext h3 {
+    font-size: 63px;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: "Roboto", sans-serif;
+    color: #fff !important;
+    text-align: center;
+}
+
+.carotext h4 {
+    font-size: 63px;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: "Roboto", sans-serif;
+    color: #fff !important;
+    text-align: center;
+}
+
+.carotext h5 {
+    font-weight: 530 !important;
+    font-size: 1.25rem !important;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.carobtn {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    padding-top: 3%;
+}
+
+.carobtn a {
+    text-decoration: none;
+
+
+}
+
+.btsec1 {
+    color: white;
+    border: 3px solid #00000025;
+    background-color: #ab7442;
+    padding: 10px 20px;
+}
+
+.btsec2 {
+    color: rgb(0, 0, 0);
+    border: 3px solid #00000025;
+    background-color: #949494;
+    padding: 10px 20px;
+
+}
+
+
+
+
+
+/* down 4 icons and head */
+/* .icons-only{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 60px;
+} */
+.para-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section1 i {
+    font-size: 40px;
+    color: #AB7442;
+    background-color: #f4f2f2;
+    height: 80px;
+    padding: 20px;
+}
+
+.number h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: rgb(225, 225, 225);
+    margin-left: 23px;
+}
+
+.iconsm {
+    display: flex;
+}
+
+.section1 p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #353535;
+    font-size: 20px;
+}
+
+.mainmain {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+
+/* ...................about //////////////////// */
+.mainabout {
+    display: flex;
+    padding-top: 80px;
+}
+
+.abouticon {
+    display: flex;
+}
+
+.abouticon i {
+    font-size: 40px;
+    color: #AB7442;
+    background-color: #f4f2f2;
+    height: 80px;
+    padding: 20px;
+}
+
+.aboutdetails h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #353535;
+    font-size: calc(1.425rem + 2.1vw);
+    line-height: 1.2;
+    padding-left: 39px;
+}
+
+.aboutdetails p {
+    /* font-family: "Open Sans",sans-serif; */
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 80%;
+    padding-left: 40px;
+    padding-top: 17px;
+}
+
+.abouticon h3 {
+    color: #AB7442;
+}
+
+.abouticon {
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.iconinside h3 {
+    padding-left: 36px;
+}
+
+.iconinside p {
+
+    text-align: justify;
+}
+
+.aboutimg img {
+    height: 500px;
+    width: 690px;
+}
+
+.aboutdetails {
+    padding-left: 50px;
+}
+
+
+
+/* ////////////////////////////card */
+.nextcard i {
+    color: #AB7442;
+
+}
+
+.nextcard a {
+    color: #AB7442;
+}
+
+.mainourourour {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+
+.servicehead {
+    text-align: center;
+
+}
+
+.servicehead h1 {
+    font-size: 50px;
+    padding-top: 70px;
+
+}
+
+.nextcard {
+    text-align: center;
+}
+
+.nextcard h5 {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.nextcard p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.aboutmainsection {
+    display: flex;
+}
+
+/* ///////////////our project//////////////////////// */
+.secall1 {
+    color: #AB7442;
+    border-bottom: 1px solid #AB7442;
+}
+
+.allsec {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.allsec h2 {
+    font-size: 19px;
+
+}
+
+.allsec h2:hover {
+    color: #AB7442;
+    border-bottom: 1px solid;
+    transition: .5s;
+}
+/* ////////////////////// */
+
+.cradcard11 img {
+    height: 390px;
+}
+.cradcard11{
+    width: 28rem;
+}
+/* /////////////////////////// */
+
+.nextcard11 h5 {
+    font-weight: 500 !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #AB7442;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.nextcard11 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #353535;
+}
+
+.ourmain {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 39px;
+}
+
+/* ///////////////////////input/////////////////// */
+.innerimage img {
+    height: 500px;
+    width: 690px;
+}
+
+.maininputsection {
+    background-color: #fcf7f7bc;
+}
+
+.mainquete {
+    display: flex;
+    padding-top: 6%;
+}
+
+.sec-label h1 {
+    margin-left: 30px;
+    font-weight: bolder;
+}
+
+.sec-label p {
+    padding-top: 20px;
+}
+
+.sec-input {
+    margin-left: 30px;
+
+
+}
+
+.sec-label {
+    width: 80%;
+    padding-left: 60px;
+    padding-top: 1%;
+}
+
+.sec-input input {
+    gap: 20px;
+    height: 50px;
+    border: 0;
+    margin-left: 30px;
+    margin-top: 6%;
+    width: 40%;
+}
+
+.sec-input input::placeholder {
+    margin-left: 5px;
+}
+
+select {
+    gap: 20px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 3%;
+    border: 0px;
+    width: 40%;
+}
+
+textarea {
+    gap: 20px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 3%;
+    border: 0px;
+    width: 87%;
+}
+
+.input-btn button {
+    margin-left: 30px;
+    width: 87%;
+    margin-top: 10px;
+    border: 0;
+    font-size: 20px;
+    background-color: #AB7442;
+    height: 45px;
+    color: white;
+}
+
+/* ///////////////////team members//////////////////////dsf/// */
+.teammembercard {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4%;
+}
+
+.caroimg img {
+    height: 90px;
+    margin-bottom: 56px;
+
+
+
+}
+
+
+.carodata {
+
+    margin-top: 100px !important;
+
+}
+
+.caroooo {
+    display: none;
+}
+
+.carodata p {
+    color: black;
+}
+
+.carodata h5 {
+    color: black;
+}
+
+.carodata h2 {
+    color: black;
+}
+
+.caroashiq {
+
+    padding: 190px 190px;
+    height: 110px;
+}
+
+/* ////////////////////foooooter              ///////// */
+.footermain {
+    background-color: #353535;
+}
+
+.footersub {
+
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-left: 4%;
+    padding-top: 5%;
+    gap: 60px;
+    height: auto;
+}
+
+.footsec21 {
+    display: flex;
+    color: white;
+}
+
+.footsec31 {
+    display: flex;
+    color: white;
+}
+
+.footsec11 i {
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 7px 7px;
+}
+
+.footsec1 {
+    padding-top: 2%;
+}
+
+.footsec1 h2 {
+    font-size: calc(1.275rem + .3vw);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.icon1 i {
+    font-weight: 900;
+
+}
+
+.icon1 h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.icon1 {
+    display: flex;
+    gap: 7px;
+    padding-top: 4%;
+}
+
+.icon2 i {
+    font-weight: 900;
+}
+
+.icon2 h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.icon2 {
+    display: flex;
+    gap: 7px;
+    padding-top: 1%;
+}
+
+.icon3 i {
+    font-weight: 900;
+}
+
+.icon3 h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.icon3 {
+    display: flex;
+    padding-top: 1%;
+    gap: 7px;
+}
+
+.icon3 {
+    display: flex;
+}
+
+/* sec2 */
+.footsec2 h2 {
+    font-size: calc(1.275rem + .3vw);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.footsec21 h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.footsec21 i {
+    font-size: 14px;
+
+}
+
+.footsec21 {
+    gap: 5px;
+}
+
+.footsec2 {
+    padding-top: 2%;
+}
+
+.footsec2 i {
+    padding-top: 4%;
+}
+
+/* /sec3 */
+.footsec3 h2 {
+    font-size: calc(1.275rem + .3vw);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.footsec31 h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.caravanda{
+    width: 28rem;
+}
+
+.footsec31 i {
+    font-size: 14px;
+    padding-top: 10px;
+    gap: 5px;
+
+}
+
+.footsec21 h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.footsec21 i {
+    font-size: 14px;
+
+}
+
+.footsec3 {
+    padding-top: 1.9%;
+}
+
+/* sec4 */
+.footsec4 h2 {
+    font-size: calc(1.275rem + .3vw);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.footsec4 h3 {
+    font-size: 19px;
+
+    font-weight: 400;
+    line-height: 1.2;
+
+}
+
+.footsec4 {
+    padding-top: 1.8%;
+
+}
+
+/* /////////////////////////////// */
+
+
+.footsec3input input {
+    padding: 13px 80px;
+}
+
+.borderbottom {
+    border-bottom: 1px solid rgb(38, 35, 35);
+    width: 88%;
+    margin: auto;
+    padding-left: 3%;
+    padding-top: 1.9%;
+
+}
+
+.footlaset1 h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
+
+}
+
+.fooetlast {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 1.9%;
+}
+
+.footlaset1 span {
+    border-bottom: 1px solid white;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+/* /////////////////////meadia qqqqqqqqqqqqqqqqq */
+
+
+
+
+
+
+
+
+
+@media(min-width:370px) and (max-width:575.98px) {
+    .main {
+        display: none;
+    }
+
+    .main-3rd-section {
+        display: none;
+    }
+
+    .carotext h2 {
+        font-size: 15px !important;
+        padding-top: 8%;
+
+    }
+
+    .carotext h3 {
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+
+    .carotext h4 {
+        font-size: 18px;
+        font-weight: 300;
+
+    }
+
+    .carotext h5 {
+        font-weight: 530 !important;
+        font-size: .5rem !important;
+
+    }
+
+    .carobtn {
+        display: none;
+    }
+
+    .mediabt {
+        display: none;
+    }
+
+    .main-1st-section {
+
+        font-weight: 700;
+        font-size: 26px;
+
+    }
+
+    .mainmain {
+        display: inline;
+        justify-content: space-evenly;
+        padding-top: 5%;
+
+
+    }
+
+    .section1 i {
+        font-size: 20px;
+    }
+
+    .section1 p {
+        font-size: 16px;
+    }
+
+    .number h1 {
+        justify-content: center;
+        font-size: 40px;
+
+
+    }
+
+    .mainabout {
+        display: inline;
+    }
+
+    .aboutimg img {
+        height: 500px;
+        width: 369px;
+    }
+
+    .aboutdetails h2 {
+        padding-top: 6%;
+    }
+
+    .aboutdetails p {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .aboutmainsection {
+        display: inline;
+    
+    }
+    
+    
+    .abouticon i {
+        font-size: 20px;
+        color: #AB7442;
+        background-color: #f4f2f2;
+        height: 80px;
+        padding: 20px;
+    }
+    
+    .iconinside h3 {
+        padding-left: 36px;
+    }
+    
+    .abouticon {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .servicehead h1 {
+        font-size: 25px;
+        padding-top: 50px;
+    
+    }
+    .mainourourour{
+        display: inline;
+        
+
+    }
+    .mainourourour img{
+        display: inline;
+        width: 369px;
+        padding-top: 50px;
+
+    }
+    .nextcard h5 {
+        font-size: 19px;
+        
+    }
+    
+    .nextcard p {
+
+        font-size: .6rem;
+        
+    }
+    .caravanda{
+        width: 100%;
+   
+    }
+    .servicehead h1 {
+        font-size: 25px;
+
+    
+    }
+    .ourmain {
+        display: inline;
+        justify-content: space-evenly;
+        padding-top: 90px;
+    }
+    .ourinside {
+
+        padding-top: 20px;
+    }
+    .mainquete {
+        display: inline;
+        padding-top: 6%;
+    }
+    .innerimage img {
+        height: 500px;
+        width: 372px;
+    }
+    .cradcard11 img{
+        width: 100%;
+    }
+    .cradcard11{
+        width: 100%;
+    }
+    .allsec h2{
+        font-size: medium;
+    }
+    .teammembercard {
+        display: inline;
+        justify-content: space-evenly;
+        padding-top: 4%;
+        
+        
+    }
+    .abc img{
+        padding-left: 6%;
+       
+    }
+    .caroimg img {
+        height: 70px;
+    }
+    .footersub {
+
+        display: inline;
+       
+    }
+    .footsec1 h2 {
+        padding-left: 19%;
+    
+    }
+    .icon1 {
+        padding-left: 19%;
+    }
+    .icon2 {
+        padding-left: 19%;
+    }
+    .icon3 {
+        padding-left: 19%;
+    }
+    .footsec11 i {
+        font-size: 16px;
+        padding-left: 9%;
+        padding: 10px 10px;
+    }
+    .footsec11{
+        padding-left: 19%;
+    }
+    .footsec2 h2{
+        padding-left: 19%;
+    }
+    .footsec21 {
+        padding-left: 19%;
+    }
+    .footsec3{
+        padding-left: 19%;
+    }
+    .footsec21{
+        padding-right: 19%;
+    }
+    .footsec4 h2{
+        padding-left: 19%;
+    }
+    .footsec4 h3{
+        padding-left: 19%;
+        text-align: justify;
+        width: 90%;
+    }
+    .footsec3input input {
+        padding: 13px 70px;
+        margin-left: 22px;
+    }
+    .borderbottom {
+        
+        padding-top: 2.9%;
+    
+    }
+    .footlaset1 h2 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        padding-left: 49px;
+        
+    
+    }
+    .fooetlast{
+        display: inline;
+    }
+
+    
+}
+
